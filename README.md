@@ -19,11 +19,12 @@ The dataset contains a total of 5,200 plant images, with a final cleaned set of 
 
 ## Model Architecture and Techniques
 
-The project utilizes a series of CNN architectures, applying transfer learning with models such as ResNet-152 and ConvNext to improve classification accuracy. The final model integrates these techniques:
+The project utilizes a series of CNN architectures, applying transfer learning with models such as ResNet-152 and ConvNext to improve classification accuracy. These techniques are exploited:
 
 1. **Baseline CNN**: Initial model with basic convolutional and pooling layers.
-2. **Transfer Learning**: Using pre-trained models on ImageNet like ResNet50.
-3. **Fine tuning**: Fine-tuning pre-trained models like ResNet and EfficientNet.
+2. **Transfer Learning**: Using pre-trained models on ImageNet.
+3. **Fine tuning**: Fine-tune the models.
+4. **Ensemble Learning**: An ensemble of multiple models, including ConvNext and ResNet-152, improved robustness and performance.
 5. **Data Augmentation**: Enhancing model generalization through transformations.
 
 The model training includes tuning hyperparameters, experimenting with various data augmentation strategies, and optimizing metrics.
