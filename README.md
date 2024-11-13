@@ -22,19 +22,9 @@ The dataset contains a total of 5,200 plant images, with a final cleaned set of 
 The project utilizes a series of CNN architectures, applying transfer learning with models such as ResNet-152 and ConvNext to improve classification accuracy. The final model integrates these techniques:
 
 1. **Baseline CNN**: Initial model with basic convolutional and pooling layers.
-2. **Transfer Learning**: Usinng pre-trained models on ImageNet like ResNet and EfficientNet.
+2. **Transfer Learning**: Using pre-trained models on ImageNet like ResNet.
 3. **Fine tuning**: Fine-tuning pre-trained models like ResNet and EfficientNet.
-4. **Ensemble Learning**: Combining multiple models for robust performance.
 5. **Data Augmentation**: Enhancing model generalization through transformations.
 
 The model training includes tuning hyperparameters, experimenting with various data augmentation strategies, and optimizing metrics.
 
-## Testing on CodaLab
-
-The model was tested on CodaLab, as part of the Politecnico di Milano challenge for the course **Artificial Neural Networks and Deep Learning**. CodaLab provided an online environment to evaluate and benchmark the model's performance against other submissions in the competition.
-
-
-## Contributors
-- Federica Vinciguerra
-- Marton Barta
-- Al Kamber
